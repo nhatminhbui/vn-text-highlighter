@@ -68,7 +68,7 @@ def summarize(text, number_of_sen=5):
     sentences = split_into_sentences(text + " ")
 
     graph = create_graph([preprocess(sen) for sen in sentences])
-    sen_order = list(len(sentences))
+    sen_order = list(range(len(sentences)))
     score = rank(graph)
 
     score, sen_order =  zip(*sorted(zip(score, sen_order)))  # order by score ascending
