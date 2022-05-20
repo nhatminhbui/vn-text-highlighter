@@ -1,5 +1,5 @@
-# Vietnamese Text Highlighter
+# Vietnamese Text Highlighter (Summarization)
 
 A tool to extract important sentences in Vietnamese text. (Extraction-based summarization)
 
-https://nhattestnet.pythonanywhere.com/vn-text-highlighter/
+Demo: https://nhattestnet.pythonanywhere.com/vn-text-highlighter
