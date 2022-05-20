@@ -1,5 +1,5 @@
 from pyvi import ViTokenizer
-import node
+from node import Node
 import vnstoplist
 import re
 from math import log2
@@ -31,7 +31,7 @@ def create_graph(sentences):
 
     # convert every sentence to node then push to graph
     for i in range(n):
-        node = node.Node(preprocess(sentences[i]).split())
+        node = Node(preprocess(sentences[i]).split())
         node.set_index(i)
         graph.append(node)
 
