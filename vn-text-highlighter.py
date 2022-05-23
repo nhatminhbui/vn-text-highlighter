@@ -2,8 +2,6 @@ from pyvi import ViTokenizer
 from node import Node
 import vnstoplist
 import re
-from math import log2
-
 
 
 def preprocess(raw_text):
