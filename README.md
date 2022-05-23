@@ -12,7 +12,7 @@ Demo: https://nhattestnet.pythonanywhere.com/vn-text-highlighter
 - `num`: Number of sentences in the summary.
 - `text`: The raw text you want to summarize.
 
-Returning data:
+Returned data:
 
 `{
 "summary": "Here's your summary."
