@@ -2,7 +2,7 @@
 
 A tool to extract important sentences in Vietnamese text. (Extraction-based summarization)
 
-Demo: https://nhattestnet.pythonanywhere.com/vn-text-highlighter
+Demo: https://nhattestnet.pythonanywhere.com/vn-text-highlighter (yes, no slash `/` at the end.)
 
 
 ## API
