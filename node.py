@@ -1,3 +1,5 @@
+from math import log2
+
 # each sentence is represented by a node (vertex)
 class Node:
     def __init__(self, vertex):
